@@ -1,0 +1,20 @@
+prefix: "&6&lZeus &7>&r"
+
+flag_format: "%prefix% &f%player% &7failed &7'&f%command%&7'&r" # &7(&e%vl%&7)
+bypass_format: "%prefix% &f%player% &7bypassed &7'&f%command%&7'&r"
+
+console_flag: "[Zeus] %player% failed '%command%'"
+console_bypass: "[Zeus] %player% bypassed '%command%'"
+
+messages:
+  noperm: "%prefix% &cYou don't have permission to execute this command!"
+  block_cmd: "%prefix% &cThis command was restricted by the Staff!"
+  bypass: "%prefix% &aYou bypassed &7'&f%command%&7'&a!"
+
+commands:
+  custom:
+    block: true
+    list:
+      - '/COMMAND1'
+      - '/COMMAND2'
+      - '/COMMAND3'

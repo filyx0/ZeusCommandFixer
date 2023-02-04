@@ -1,0 +1,4 @@
+name: ZeusCommandFixer
+version: '${project.version}'
+main: it.filyx0.zeuscommandfixer.ZCF
+authors: [ filyx0 ]
