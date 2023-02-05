@@ -39,7 +39,7 @@ public class onCommandEvent implements Listener {
                             }
                         }
 
-                        System.out.println(config.getString("console_bypass"));
+                        System.out.println(config.getString("console_bypass").replace("%player%", p.getName()).replace("%command%", e.getMessage()));
                     } else {
                         e.setCancelled(true);
 
@@ -54,7 +54,7 @@ public class onCommandEvent implements Listener {
                             }
                         }
 
-                        System.out.println(config.getString("console_flag"));
+                        System.out.println(config.getString("console_flag").replace("%player%", p.getName()).replace("%command%", e.getMessage()));
                     }
                 }
             }
